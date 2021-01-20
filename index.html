@@ -4,11 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Talk</title>
+    <style>
+        textarea {
+            width: 95%;
+            height: 10vh;
+            border-radius: 1rem;
+            border-style: solid;
+            border-width: 1mm;
+            border-color: brown;
+            text-align: center;
+            text-justify: auto;
+            margin: auto;
+            padding: 1rem 1rem;
+            display:grid;
+        }
+
+        button {
+            padding: 0.5rem;
+            background-color: cadetblue;
+            border-block:initial;
+            border-radius: 0.2rem;
+            display: block;
+        }
+    </style>
     
 </head>
 
 <body>
-    <h1>here we r learning lol.</h1>
+    <h1>Let's have some fun.</h1>
+    <textarea id="txt-ip" placeholder="Please enter the text you want to translate"></textarea> 
+    <br>
     <button id="trans-btn">Translate</button>
     <script src="app.js" type="text/javascript"> </script>
 </body>
