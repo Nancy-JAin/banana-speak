@@ -1,9 +1,9 @@
 var btnTranslate= document.querySelector("#trans-btn");
 var txtIp= document.querySelector("#txt-ip");
+var txtOp= document.querySelector("#txt-op");
 
 function clickHandler () {
-    console.log("clicked!!!!!!");
-    console.log(txtIp.value);
+    txtOp.innerText = "translated " +txtIp.value; 
 }
 
 
