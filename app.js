@@ -1,3 +1,5 @@
-console.log("Now..Am i visible?");
-var username= prompt("Say your I'd");
-alert("Welcome! " + username);
+var btnTranslate= document.querySelector("#trans-btn");
+
+btnTranslate.addEventListener("click", function clickEventHandler() {
+    console.log("clicked!!!!!!");
+})
